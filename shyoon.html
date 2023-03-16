@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>팀 프로젝트</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+            /* 상단바*/
+        #navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: transparent;
+            color: white;
+            padding-top: 20px;
+
+        }
+
+        .title {
+            background-color: gray;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .location {
+            padding-top: 100px;
+            height: 1080px;
+            background-color: aquamarine;
+            
+        }
+
+        .title_btn {
+            margin-right: 30px;
+        }
+
+        .team_name {
+            margin: 100px 450px 30px 450px;
+            height: 100px;
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .team_info {
+            margin: 20px 450px 30px 450px;
+            height: 400px;
+            background-color: gray;
+        }
+
+        .comment_location {
+            height: 150px;
+            background-color: rgb(216, 152, 241);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .sh_location {
+            height: 1050px;
+            background-image: url("https://t1.daumcdn.net/tistoryfile/fs5/9_19_7_7_blog139632_attach_0_4.jpg?original");
+            background-size: 100% 100%;
+
+        }
+
+        #end_location {
+            height: 500px;
+            background-color: black;
+            text-align: center;
+            position: relative;
+        }
+
+        .student_image {
+            margin-top: 13%;
+            margin-inline: 1% 1%;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: transparent;
+        }
+
+        .student_name {
+            background-color: yellow;
+            height: 25px;
+            border-radius: 15%;
+        }
+
+        .image_info {
+            background-color: aqua;
+            height: 175px;
+            border-radius: 50%;
+        }
+
+        .container {
+            display: flex;
+        }
+        /* sh~~는 윤성훈 */
+        .sh_box1 {
+            margin: 0;
+            padding: 0;
+            margin-top: 25%;
+            margin-inline: 1% 1%;
+            height: 350px;
+            width: 400px;
+            border-radius: 5%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-image: url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtEMUl%2FbtrDc6957nj%2FNwJoDw0EOapJNDSNRNZK8K%2Fimg.jpg");
+            background-size: 100% 100%;
+            transition: all 0.8s linear;
+        }
+
+        .sh_box1:hover {
+            background-image: url("https://cdn.pixabay.com/photo/2020/07/04/05/24/cat-5368270__480.jpg");
+        }
+
+        .sh_box2 {
+            margin-top: 25%;
+            margin-inline: 1% 1%;
+            background-color: transparent;
+            height: 350px;
+            width: 800px;
+            color: rgb(87, 235, 222);
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            transition: color 1s ease-out;
+        }
+
+
+        .sh_box2:hover {
+            color: white;
+        }
+
+        .sh_th {
+            width: 100px;        
+            padding: 8px;
+            text-align: center;
+        }
+        
+        .sh_td {
+            text-align: center;
+        }
+
+        .sh_table {
+            border-collapse: collapse;
+            height: 400px;
+        }
+        
+    </style>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="location">
+        <header>
+            <div class="title" id="navbar">
+                <h1>팀 프로젝트</h1>
+                <nav>
+                    <a href="#"><button class="title_btn" type="button">손성수</button></a>
+                    <a href="#sh_location"><button class="title_btn" type="button">윤성훈</button></a>
+                    <a href="#"><button class="title_btn" type="button">박재원</button></a>
+                    <a href="#"><button class="title_btn" type="button">이도윤</button></a>
+                    <a href="#"><button class="title_btn" type="button">임상빈</button></a>
+
+                </nav>
+            </div>
+        </header>
+        <div class="team_name">
+            <h1>주니어 코린이</h1>
+        </div>
+        <div class="team_info"></div>
+    </div>
+
+
+    <div class="comment_location">
+        <h1>팀원 소개</h1>
+    </div>
+    <div class="sh_location" id="sh_location">
+        <div class="container">
+            <div class="sh_box1">
+            </div>
+            <div class="sh_box2">
+                <table class="sh_table">
+                    <tr>
+                        <th class="sh_th">이름</th>
+                        <td class="sh_td">윤성훈</td>
+                        
+                    </tr>
+                    <tr>
+                        <th class="sh_th">MBTI</th>
+                        <td class="sh_td">INTP</td>
+                        
+                    </tr>
+                    <tr>
+                        <th class="sh_th">생년월일</th>
+                        <td class="sh_td">96.07.21</td>
+                        
+                    </tr>
+                    <tr>
+                        <th class="sh_th">사는 곳</th>
+                        <td class="sh_td">시흥</td>
+                        
+                    </tr>
+                    <tr>
+                        <th class="sh_th">자기소개</th>
+                        <td class="sh_td">내일배움캠프를 시작하면서 아직 모든게 어렵고 낯설지만 직접 검색하고 찾아가며 조그마한 것들이라도 하나씩 작동이 되거나 완성이 될 때
+                            코딩의 매력을 느끼고 있습니다. 저는 집에 있는것과 게임을 매우 좋아하는 집돌이이고 고양이를 매우 좋아하여 고양이 사진을 살짝 추가해봤습니다.
+                        </td>
+                        
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="end_location">
+        <div class="student_image">
+            <div class=student_name>손성수</div>
+            <div class="image_info"></div>
+        </div>
+        <div class="student_image">
+            <div class=student_name>윤성훈</div>
+            <div class="image_info"></div>
+        </div>
+        <div class="student_image">
+            <div class=student_name>박재원</div>
+            <div class="image_info"></div>
+        </div>
+        <div class="student_image">
+            <div class=student_name>이도윤</div>
+            <div class="image_info"></div>
+        </div>
+        <div class="student_image">
+            <div class=student_name>임상빈</div>
+            <div class="image_info"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
